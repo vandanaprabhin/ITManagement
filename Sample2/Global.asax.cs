@@ -14,7 +14,9 @@ namespace Sample2
         { 
             AreaRegistration.RegisterAllAreas();
             //sample comment
-            
+// new comment 
+//better comment
+
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
