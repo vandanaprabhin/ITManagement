@@ -11,8 +11,10 @@ namespace Sample2
     public class MvcApplication : System.Web.HttpApplication
     {
         protected void Application_Start()
-        {
+        { 
             AreaRegistration.RegisterAllAreas();
+            //sample comment
+            
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
