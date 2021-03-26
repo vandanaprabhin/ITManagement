@@ -15,6 +15,7 @@ namespace Sample2
             AreaRegistration.RegisterAllAreas();
             //sample comment
 // new comment 
+//change 1
 //better comment
 
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
